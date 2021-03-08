@@ -1,0 +1,6 @@
+if a=b
+{
+    a := c * D
+} else{
+          x := y * z
+      }

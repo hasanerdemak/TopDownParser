@@ -1,0 +1,18 @@
+Parsed correctly
+ParseTree :
+<start>
+<if_statement> 
+if <logic_expr> <statement> else <statement> 
+if <var> = <var> <statement> else <statement> 
+if a = <var> <statement> else <statement> 
+if a = b <statement> else <statement> 
+if a = b {<var> := <expr>} else <statement> 
+if a = b {a := <expr>} else <statement> 
+if a = b {a := <var> * <var>} else <statement> 
+if a = b {a := c * <var>} else <statement> 
+if a = b {a := c * D} else <statement> 
+if a = b {a := c * D} else {<var> := <expr>} 
+if a = b {a := c * D} else {x := <expr>} 
+if a = b {a := c * D} else {x := <var> * <var>} 
+if a = b {a := c * D} else {x := y * <var>} 
+if a = b {a := c * D} else {x := y * z} 
