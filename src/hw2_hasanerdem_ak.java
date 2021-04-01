@@ -117,6 +117,7 @@ public class hw2_hasanerdem_ak {
             table.put("-", "SUBT");
             table.put("/", "DIV");
             table.put("*", "MULT");
+            table.put("%", "MODULUS");
             table.put(">", "GREATER");
             table.put("<", "LESS");
             table.put(">=", "GRE_EQ");
